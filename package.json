@@ -1,0 +1,24 @@
+{
+  "name": "hannes_alternativa_skolplattform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannessunnanbo/hannes_alternativa_skolplattform.git"
+  },
+  "author": "hannes sunnanbo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannessunnanbo/hannes_alternativa_skolplattform/issues"
+  },
+  "homepage": "https://github.com/hannessunnanbo/hannes_alternativa_skolplattform#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
