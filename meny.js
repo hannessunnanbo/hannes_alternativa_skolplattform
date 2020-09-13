@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const xml2js = require('xml2js');
 
 async function hamtaMeny() {
-    const RSS_URL = `https://skolmaten.se/orbyskolan2/rss/days/?offset=2`;
+    const RSS_URL = `https://skolmaten.se/orbyskolan2/rss/days/?offset=1`;
 
     const parser = new xml2js.Parser();
 
